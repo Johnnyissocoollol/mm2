@@ -1,9 +1,3 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "hi! if u get kicked",
-Text = "set the tween speed lower scroll down and the slider is there enjoy", 
-Duration = 5
-})
-
 setclipboard = function() end
 
 local Players = game:GetService("Players")
