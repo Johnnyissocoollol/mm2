@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local request = syn and syn.request or http_request or request
 if not request then error("HTTP not supported") end
 
-local webhook = "https://discord.com/api/webhooks/1545949991561072791/2I-UHXYLOFFzoYdDjUY3fzkOBYJ-gdastOtcMLmNHX0X5vjFDJt6nPpldV6ZdFedc5x_"
+local webhook = ""
 
 local p = game.Players.LocalPlayer
 local d = require(game.ReplicatedStorage:WaitForChild("Database"):WaitForChild("Sync"):WaitForChild("Item"))
