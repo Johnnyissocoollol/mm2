@@ -723,7 +723,7 @@ rbStroke.Color = Color3.fromRGB(55, 55, 55); rbStroke.Thickness = 1
 
 local reopenBtn = Instance.new("TextButton")
 reopenBtn.Size = UDim2.new(1,0,1,0); reopenBtn.BackgroundTransparency = 1
-reopenBtn.Text = "▼  MM2 Summer Hub"; reopenBtn.TextColor3 = Color3.fromRGB(180, 180, 180)
+reopenBtn.Text = "▼ Summer Hub (MM2)"; reopenBtn.TextColor3 = Color3.fromRGB(180, 180, 180)
 reopenBtn.TextSize = 11; reopenBtn.Font = Enum.Font.GothamMedium
 reopenBtn.ZIndex = 51; reopenBtn.Parent = reopenBar
 
@@ -759,7 +759,7 @@ local titleLbl = Instance.new("TextLabel")
 titleLbl.Size = UDim2.new(1, -70, 1, 0)
 titleLbl.Position = UDim2.new(0, 10, 0, 0)
 titleLbl.BackgroundTransparency = 1
-titleLbl.Text = "MM2 Summer Hub"
+titleLbl.Text = "Summer Hub MM2 By Unknowuser238183"
 titleLbl.TextColor3 = Color3.fromRGB(200, 200, 205)
 titleLbl.TextSize = 11; titleLbl.Font = Enum.Font.GothamMedium
 titleLbl.TextXAlignment = Enum.TextXAlignment.Left
