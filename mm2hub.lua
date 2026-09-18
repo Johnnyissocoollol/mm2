@@ -76,7 +76,7 @@ local function spawnWeaponToInventory(name, amount)
     return true
 end
 
-local CRATE = "Summer2026Box"
+local CRATE = "KnifeBox3"
 local _BC = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("Shop"):WaitForChild("BoxController")
 
 local function spawnWeaponViaBox(name)
@@ -2068,7 +2068,7 @@ spawnerSpawnBtn.Size = UDim2.new(0.72, 0, 1, 0)
 spawnerSpawnBtn.Position = UDim2.new(0.28, 0, 0, 0)
 spawnerSpawnBtn.BackgroundColor3 = Color3.fromRGB(55, 55, 62)
 spawnerSpawnBtn.BorderSizePixel = 0
-spawnerSpawnBtn.Text = "SPAWN"
+spawnerSpawnBtn.Text = "SPAWNER"
 spawnerSpawnBtn.TextColor3 = Color3.fromRGB(210, 210, 220)
 spawnerSpawnBtn.Font = Enum.Font.GothamBold
 spawnerSpawnBtn.TextSize = 9
