@@ -1408,7 +1408,7 @@ for i, opt in ipairs({"Normal","Underground","Lay"}) do
     b.MouseLeave:Connect(function() b.BackgroundTransparency = 1 end)
     b.MouseButton1Click:Connect(function()
         farmMode = opt
-        modeBtn.Text = opt .. ""
+        modeBtn.Text = opt .. "'"
         modeDrop.Visible = false
         if autoFarm then
             cancelActiveTween()
