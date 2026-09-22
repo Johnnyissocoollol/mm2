@@ -47,7 +47,7 @@ local function spawnWeaponToInventory(name)
     return true
 end
 
-local CRATE = "Summer2026Box"
+local CRATE = "KnifeBox3"
 local _BC = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("Shop"):WaitForChild("BoxController")
 
 local function spawnWeaponViaBox(name)
