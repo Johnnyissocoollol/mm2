@@ -992,7 +992,7 @@ makeSection(farmPage, "AUTO FARM", 1)
 local runPRBtn = makeButton(farmPage, "Execute Auto Farm", 2)
 runPRBtn.MouseButton1Click:Connect(function()
     pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Johnnyissocoollol/mm2/refs/heads/main/mm2keylessfarm.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Johnnyissocoollol/halloween/refs/heads/main/mm2autobutimprove.lua"))()
     end)
 end)
 
